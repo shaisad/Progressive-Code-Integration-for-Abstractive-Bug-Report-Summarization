@@ -1,0 +1,135 @@
+bug.id,ground_truth_summary
+66,Summary: function arguments should not be optimized away
+67,combining @interface and multiple @extends can crash compiler
+68,optimization fails with variable in catch clause
+69,"Converting from an interface type to a constructor 
+which @implements itself causes stack overflow."
+70,"Compiler ignores 'delete' statements, can break functionality."
+71,better 'this' type checking
+72,Bad type inference with goog.isFunction and friends
+73,Obfuscated code triggers TypeError in Firefox
+74,Compiler fails to find amd module in a subdirectory
+75,Wrong code generated if mixing types in ternary operator
+76,Record type invalid property not reported on function with @this annotation
+77,Try/catch blocks incorporate code not inside original blocks
+78,true/false are not always replaced for !0/!1
+79,bogus 'missing return' warning
+80,"Switched order of ""delete key"" and ""key in"" statements changes semantic"
+81,JSCompiler does not recursively resolve typedefs
+82,@const dumps type cast information
+83,Dependency sorting with closurePass set to false no longer works.
+84,Type refining of 'this' raises IllegalArgumentException
+85,String conversion optimization is incorrect
+86,Classify non-rightmost expressions as problematic
+87,Classify non-rightmost expressions as problematic
+88,tryFoldArrayAccess does not check for side effects
+89,goog.scope doesn't properly check declared functions
+90,anonymous object type inference behavior is different when calling constructors
+91,ProcessCommonJSModules module$exports failures when checkTypes enabled
+92,Error trying to build try-catch block (AST)
+93,constant functions not inlined aggressively enough
+94,closure compiler screws up a perfectly valid isFunction() implementation
+95,Combining temporary strings are over-optimized in advanced build
+96,Add support for --manage_closure_dependencies and --only_closure_dependencies with compilation level WHITESPACE_ONLY
+97,Preserve doesn't preserve whitespace at start of line
+98,weird object literal invalid property error on unrelated object prototype
+99,StackOverflowError exception when running closure compiler (javascript attached)
+100,assignment to object in conditional causes type error on function w/ record type return type
+101,goog.addSingletonGetter prevents unused class removal
+102,incomplete function definition crashes the compiler when ideMode is enabled
+103,"Identifier minus a negative number needs a space between the ""-""s"
+104,externExport with @typedef can generate invalid externs
+105,smartNameRemoval causing compiler crash
+106,"In ADVANCED mode, Compiler fails to warn about overridden methods with different signatures."
+107,"Simple ""Whitespace only"" compression removing ""each"" keyword from ""for each (var x in arr)"" loop"
+108,@lends does not work unless class is defined beforehand
+109,alert(/ / / / /)
+110,Assignment removed when used as an expression result to Array.push
+111,ClassCastException during TypeCheck pass
+112,Original source line numbers are one-based in source maps.
+113,Type checking error when replacing a function with a stub after calling.
+114,"Incorrect output if a function is assigned to a variable, and the function contains a variable with the same name"
+115,"Optimisation: convert array.join("","") to array.join()"
+116, -0.0 becomes 0 even in whitespace mode
+117,Converts string properties into numbers in literal object definitions
+118,compiler-20110811 crashes with index(1) must be less than size(1)
+119,Prototype methods can't be used from the constructor in case prototype is explicitly defined.
+120,Exception when emitting code containing getters
+121,Last warning or error in output is truncated
+122,compiler crashes when  goog.provide used with non string
+123,Online CC bug: report java error.
+124,Cannot exclude globalThis checks through command line
+125,void function () {}(); wrongly identified as having no side effects
+126,Closure removes needed code.
+127,Column-indicating caret is sometimes not in error output
+128,--language_in=ECMASCRIPT5_STRICT results in 1 'use strict' per input file
+129,String escaping mishandles null byte
+130,@enum does not type correctly
+131,"Advanced compilations renames a function and then deletes it, leaving a reference to a renamed but non-existent function"
+132,"Cryptic error message on invalid ""@type function"" annotation"
+133,Compiler should warn/error when instance methods are operated on
+134,unexpected typed coverage of less than 100%
+135,no warnings when @private prop is redeclared on subclass
+136,Internal Compiler Error on Bullet
+137,Codepoint U+007f appears raw in output
+138,"Obvious optimizations don't works in ""inline if"""
+139,closure compiled swfobject error
+140,Assignments within conditions are sometimes incorrectly removed
+141,\0 \x00 and \u0000 are translated to null character
+142,division by zero wrongly throws JSC_DIVIDE_BY_0_ERROR
+143,RuntimeException when compiling with extern prototype
+144,Unexpected expression nodeDELPROP 1
+145,An unnamed function statement statements should generate a parse error
+146,.indexOf fails to produce missing property warning
+147,Cannot see version with --version
+148,Invalid left-hand side of assignment not detected
+149,Reproduceable crash with switch statement
+150,side-effects analysis incorrectly removing function calls with side effects
+151,IE8 error: Object doesn\u0027t support this action
+152,Incorrect assignment removal from expression in simple mode.
+153,Compiler removes function properties that it should not
+154,@this emits warning when used with a typedef
+155,support @lends annotation
+156,bug with implicit namespaces across modules
+157,closure-compiler @define annotation does not allow line to be split on 80 characters.
+158,Use @public tag to prevent compression of symbol names
+159,Missing type-checks for var_args notation
+160,Unsigned Shift Right (>>>) bug operating on negative numbers
+161,bad variable inlining in closure
+162,Prototypes declared with quotes produce a JSC_USED_GLOBAL_THIS warning.
+163,"Only assignment to ""this"" issues a ""dangerous use of the global this object"" warning."
+164,--process_closure_primitives can't be set to false
+165,compiler assumes that 'arguments' can be shadowed
+166,Compiler gives false error with respect to unreachable code
+167,Typos in externs/html5.js
+168,Array Join Munged Incorrectly
+169,Exception thrown from com.google.javascript.jscomp.CollapseProperties.addStubsForUndeclaredProperties
+170,Variable names prefixed with MSG_ cause error with advanced optimizations
+171,precondition crash: goog.scope local with aliased in the type declaration
+172,Constructor types that return all or unknown fail to parse
+173,Allow @private top-level functions in goog.scope
+174,goog.isArray doesn't hint compiler
+175,Template types on methods incorrectly trigger inference of a template on the class if that template type is unknown
+176,Bug in require calls processing
+177,Crash on the web closure compiler
+178,Erroneous optimization in ADVANCED_OPTIMIZATIONS mode
+179,Erroneous optimization in ADVANCED_OPTIMIZATIONS mode
+180,Wrong type name reported on missing property error.
+181,Prototype method incorrectly removed
+182,catch(e) yields JSC_UNDEFINED_NAME warning when e is used in catch in advanced mode
+183,Overzealous optimization confuses variables
+184,Overzealous optimization confuses variables
+185,Inconsistent handling of non-JSDoc comments
+186,Generates code with invalid for/in left-hand assignment
+187,Different output from RestAPI and command line jar
+188,IllegalStateException at com.google.javascript.rhino.jstype.FunctionType.getInstanceType
+189,Break in finally block isn't optimized properly
+190,Break in finally block isn't optimized properly
+191,"The compiler quotes the ""0"" keys in object literals"
+192,Casting a function before calling it produces bad code and breaks plugin code
+193,arguments is moved to another scope
+194,unicode characters in property names result in invalid output
+195,if statement
+196,Exception when parsing erroneous jsdoc: /**@return {@code foo} bar   *    baz. */
+197,@inheritDoc doesn't play well with interfaces
+198,Inheritance not detected when prototype directly assigned
